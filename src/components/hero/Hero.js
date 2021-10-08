@@ -2,12 +2,13 @@ import React from "react";
 import "./Hero.css";
 import large from "../../assets/large.svg"
 import small from "../../assets/small.svg"
+import dot from "../../assets/dot.svg"
 
 
 const Hero = () => {
   return (
-    <div className="hero container-fluid d-flex justify-content-between">
-      <div className="hero-texts col-lg-6">
+    <div className="hero container-fluid d-flex justify-content-around">
+      <div className="hero-texts col-lg-6 self-center">
         <h1 className="hero-header">
           Imagıne your<br/>home smart enough<span className="hero-header-span"> to take care</span> of itself
         </h1>
@@ -23,6 +24,7 @@ const Hero = () => {
             Learn More
           </button>
         </div>
+        <img className="dot-image" src={dot}/>
       </div>
       <div className="hero-image-group col-lg-6">
         <img className="large-image" src={large}/>

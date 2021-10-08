@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-body{
-    background-image:url("../../assets/background-blue.svg");
-    background-repeat: no-repeat;
-    background-size: 80%;
-  }
+body {
+  background-image: url("../../assets/background-blue.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-y:100%;
+
+  
+ 
+}
 
 /* TEXTS */
 
-.hero-texts{
-  margin: 5%;
+.hero-texts {
+  margin: 7%;
   display: flex;
   justify-content: left;
   flex-direction: column;
@@ -19,7 +23,7 @@ body{
 }
 
 /* HEADER */
-.hero-header{
+.hero-header {
   font-family: "Inter", sans-serif !important;
   font-weight: 700;
   font-size: 55px;
@@ -28,14 +32,14 @@ body{
   text-align: left;
   letter-spacing: -2%;
 }
-.hero-header-span{
-  color:#1ECE7A
+.hero-header-span {
+  color: #1ece7a;
 }
 
-.hero-paragraph{
+.hero-paragraph {
   font-family: "Inter", sans-serif !important;
   font-weight: 400;
-  color:#fff;
+  color: #fff;
   line-height: 32px;
   font-size: 20px;
   text-align: left;
@@ -43,92 +47,81 @@ body{
 
 /* BUTTONS */
 .hero-learn-more {
-    font-family: "Inter", sans-serif !important;
-    font-weight: 700;
-    font-size: 15px;
-    border-radius: 3px;
-    text-align: center;
-    border: #1ece7a solid 1px;
-    color: #1ece7a;
-    min-width: 168px;
-  }
-  .hero-get-started {
-    font-family: "Inter", sans-serif !important;
-    font-weight: 700;
-    font-size: 15px;
-    border-radius: 3px;
-    text-align: center;
-    background-color: #1ece7a;
-    color: #fff;
-    min-width: 168px;
-  }
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 3px;
+  text-align: center;
+  border: #1ece7a solid 1px;
+  color: #1ece7a;
+  min-width: 168px;
+}
+.hero-get-started {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #1ece7a;
+  color: #fff;
+  min-width: 168px;
+}
 
+/* IMAGES */
 
-  /* IMAGES */
+.large-image {
+  position: absolute;
+  top:80px;
+  right: 80px;
+  min-width: 32%;
+}
 
-  .large-image{
-    position: absolute;
-    right: 95px;
-  }
+.small-image {
+  position: absolute;
+  right: 0;
+  top: 630px;
+  min-width: 25%;
+}
 
-  .small-image{
-    position: absolute;
-    right: 0;
-    top:510px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dot-image{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
 /* MEDIA FOR IPAD */
 
-@media (max-width: 834px){
-   body{
-    background-size: 100%;
-   }
-   .hero-image-group{
-     display: none;
-   }
-   .hero-texts{
-     max-width: 75%;
-     align-items: center;
-   }
-   .hero-header{
-     text-align: center;
-   }
- 
+@media (max-width: 834px) {
+  body {
+   background-size: cover;
+
+  }
+  .hero-image-group {
+    display: none;
+  }
+  .hero-texts {
+    max-width: 75%;
+    align-items: center;
+  }
+  .hero-header {
+    text-align: center;
+  }
+  .dot-image{
+    max-width: 20% ;
+  }
 }
-
-
-
-
-
-
-
-
-
 
 /* MEDIA FOR MOBIL */
 
-@media (max-width: 375px){
-  .hero-texts{
+@media (max-width: 375px) {
+  .hero-texts {
     max-width: 90%;
     align-items: center;
   }
-  .hero-header{
+  .hero-header {
     font-size: 42px;
   }
-
+  .dot-image{
+    left:-15px
+  }
 }

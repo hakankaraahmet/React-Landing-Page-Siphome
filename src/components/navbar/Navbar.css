@@ -111,14 +111,7 @@
   }
   .menu-button {
     display: block !important;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  .col-lg-3 {
-    display: none;
+    margin-left: 50%;
   }
   .main-menu {
     display: none;
@@ -140,6 +133,9 @@
   }
   .modal-sign-in {
     min-width: 35%;
+  }
+  .menu-button {
+    margin-left: 25%;
   }
 }
 

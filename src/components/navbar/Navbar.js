@@ -5,8 +5,8 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand col-lg-2 col-sm-1" href="#">
+      <nav className="navbar navbar-expand-lg">
+        <a className="navbar-brand col-md-3" href="#">
           <img src={Shape} /> <span className="siphome">Siphome</span>
         </a>
         <button
@@ -18,7 +18,7 @@ const Navbar = () => {
           <span className="menu">Menu</span>
         </button>
 
-        <div className="navbar-nav col-lg-7 main-menu">
+        <div className="navbar-nav col-md-6 main-menu ">
           <a className="nav-item nav-link mx-4 " href="#">
             Home
           </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
             FAQ
           </a>
         </div>
-        <div className="col-lg-3">
+        <div className="col-md-3">
           <button type="button" class="btn sign-in mx-2">
             Sign In
           </button>
