@@ -19,7 +19,7 @@ const Navbar = () => {
         </button>
 
         <div className="navbar-nav col-lg-7 main-menu">
-          <a className="nav-item nav-link mx-4 active" href="#">
+          <a className="nav-item nav-link mx-4 " href="#">
             Home
           </a>
           <a className="nav-item nav-link mx-4" href="#">
@@ -65,22 +65,22 @@ const Navbar = () => {
                 </button>
               </div>
               <div class="modal-body d-flex flex-column">
-                <a className="mx-4 active modal-item " href="#">
+                <a className="mx-4 active modal-item m-3" href="#">
                   Home
                 </a>
-                <a className="mx-4 modal-item" href="#">
+                <a className="mx-4 modal-item m-3" href="#">
                   Features
                 </a>
-                <a className="mx-4 modal-item" href="#">
+                <a className="mx-4 modal-item m-3" href="#">
                   Services
                 </a>
-                <a className="mx-4 modal-item" href="#">
+                <a className="mx-4 modal-item m-3" href="#">
                   Contact
                 </a>
-                <a className="mx-4 modal-item" href="#">
+                <a className="mx-4 modal-item m-3" href="#">
                   FAQ
                 </a>
-                <div className="modal-buttons">
+                <div className="modal-buttons mb-5">
                   <button type="button" class="btn mx-2 modal-get-started m-1">
                     Get Started
                   </button>
