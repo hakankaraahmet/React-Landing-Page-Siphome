@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+.features {
+  position: relative;
+}
+.features-text {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #606c84;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.dot1 {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  opacity: 0.4;
+  top: -3%;
+}
+
+.dot2 {
+  position: absolute;
+  right: 0;
+  opacity: 0.4;
+  top: 13%;
+}
+
+/* ----------Features Main------------ */
+
+.features-main {
+  display: flex;
+}
+
+.illustation {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+.features-main-text {
+  padding-top: 5%;
+}
+
+.header-features {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.6em;
+  color: #1c57c9;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.header-meetsiphome {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58.8px;
+  letter-spacing: -0.02em;
+  color: #262b35;
+  text-align: left;
+}
+
+.header-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #606c84;
+  text-align: left;
+  max-width: 75%;
+}
+
+.icon-image-container {
+  display: flex;
+}
+
+.icon-header {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262b35;
+  text-align: left;
+}
+
+.icon-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #606c84;
+  text-align: left;
+  max-width: 50%;
+}
+
+/* ---------------Media Queries------------------ */
+
+@media (max-width: 834px) {
+  .features-text {
+    text-align: center;
+    max-width: 75%;
+    margin-top: 15%;
+  }
+  .dot1 {
+    top: 10%;
+    z-index: 0;
+    right: -15%;
+  }
+  .dot2 {
+    top: 20%;
+    right: -15%;
+  }
+  .header-features,
+  .header-meetsiphome,
+  .header-paragraph,
+  .icon-header {
+    text-align: center;
+  }
+  .header-paragraph-container {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-paragraph-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .icon-paragraph {
+    text-align: center;
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 375px) {
+  .features-text {
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-top: 20%;
+    max-width: 85%;
+  }
+  .dot1,
+  .dot2 {
+    display: none;
+  }
+  .illustation {
+    width: 70%;
+    margin: 0;
+  }
+  .header-meetsiphome {
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+  .icon-paragraph {
+    text-align: center;
+    max-width: 70%;
+  }
+  
+  
+  
+}
