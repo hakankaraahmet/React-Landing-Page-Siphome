@@ -6,8 +6,10 @@ import Navbar from './components/navbar/Navbar'
 const App = () => {
   return (
     <div className="app">
+      <div className="firstpage">
       <Navbar/>
       <Hero/>
+      </div>
       <Features/>
     </div>
   )
