@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand col-md-3" href="#">
           <img src={Shape} /> <span className="siphome">Siphome</span>
         </a>
