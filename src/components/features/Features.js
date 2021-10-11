@@ -9,7 +9,7 @@ import iconcontact from "../../assets/icon-contact.svg";
 
 const Features = () => {
   return (
-    <div className="features border border-primary">
+    <div className="features">
       <div className="text-dot row d-flex justify-content-around">
         <p className="features-text col-lg-6">
           Every day your home faces countless potential threats. Every day you
