@@ -3,7 +3,8 @@ import Features from './components/features/Features'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Update from './components/update/Update'
-
+import Services from "./components/services-page/Services"
+import Testimonals from "./components/testimonals/Testimonals"
 const App = () => {
   return (
     <div className="app">
@@ -13,6 +14,10 @@ const App = () => {
       </div>
       <Features/>
       <Update/>
+      <div className="gradient">
+        <Services/>
+        <Testimonals/>
+      </div>
     </div>
   )
 }
