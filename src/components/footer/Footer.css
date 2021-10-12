@@ -1,0 +1,130 @@
+.footer{
+    margin-top: 7%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5%;
+}
+.footerlogo{
+    max-width: 35%;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.active-link{
+    color:#1C57C9 !important;
+}
+
+.footer-right{
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-right: 5%;
+}
+
+
+.footer-left-header{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #262b35;
+}
+.footer-left-info{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #262b35;
+    max-width: 75%;
+  }
+
+  .footer-right-header{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #262b35;
+  }
+  .footer-right-info, .footer-right-info > a{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+    color: #606C84;
+  }
+
+  .copyright{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #606C84;
+    margin-top: 5%;
+  }
+
+
+  @media (max-width: 834px){
+      .footer{
+          margin-top:30%
+      }
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .footer-left{
+        min-width: 100% !important;
+    }
+    .footerlogo{
+        max-width: 25%;
+    }
+    .footer-right{
+        display:flex;
+        justify-content: space-around;
+        text-align: left;
+        min-width:100%;
+        margin-top: 5%;
+    }
+  }
+
+
+  @media (max-width: 375px){
+    .footer-left{
+        align-items: center;
+    }
+    .footerlogo{
+        max-width: 50%;
+    }
+    .footer-right{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        min-width:100%;
+        margin-top: 5%;
+    }
+    .footer-right-group{
+        margin-top: 20%;
+    }
+    .footer-left-header,.footer-left-info,.footer-right-header,.footer-right-info{
+        font-size:18px;
+        line-height: 39px;
+    }
+    .copyright{
+        margin-top: 15% !important;
+        margin-bottom: 5% !important;
+        max-width:67%;
+        margin:auto
+    }
+}
