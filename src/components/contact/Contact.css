@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.contact{
+    margin-top: 10% !important;
+}
+.contact-left{
+    margin-top: 3%;
+}
+
+.header-contact {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.6em;
+  color: #1c57c9;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.header-skip {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58.8px;
+  letter-spacing: -0.02em;
+  color: #262b35;
+  text-align: left;
+  margin-left: 30%;
+  max-width: 55% !important;
+}
+
+.contact-left-image-container{
+    margin-top: 5%;
+    margin-left: 5% 
+}
+
+form{
+    margin-left:15%;
+    max-width: 50%;
+}
+
+.form-group{
+    text-align: left;
+}
+.form-button-container{
+    display: flex;
+    justify-content: left;
+}
+textarea{
+    resize: none;
+}
+
+label{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #262B35;
+}
+.form-select{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.7px;
+    color: #262B35;
+
+}
+
+.form-button{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    min-width: 25%;
+    background-color: #1ECE7A ;
+}
+
+@media (max-width: 834px){
+    .header-skip {
+        text-align: center;
+        margin-left: 22% ;
+        max-width: 55% !important;
+      }
+      .header-contact {
+        text-align: center;
+        margin-left: 0%;
+      }
+      form{
+        margin-left:27%;
+        margin-top: 10%;
+    }
+    .form-button{
+        min-width: 100%;
+    }
+    .contact{
+        margin-top: 30% !important;
+    }
+
+}
+
+
+@media (max-width: 375px){
+    .header-skip {
+        font-size: 32px;
+        line-height: 44.8px;
+        text-align: center;
+        margin-left: 7%;
+        max-width: 85% !important;
+      }
+     .illustration{
+         width: 75%;
+     }
+     .contact-left-image-container{
+        margin-left: 0% 
+    }
+    form{
+        max-width: 75%;
+        margin-left:12%;
+    }
+    label{
+        line-height: 20.3px;
+    }
+    .contact{
+        margin-top: 40% !important;
+    }
+    
+}
