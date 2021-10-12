@@ -1,0 +1,62 @@
+.testimonals{
+    margin-top: 10% !important;
+}
+
+.header-testimonals {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.6em;
+    color: #1c57c9;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .header-letsee {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58.8px;
+    letter-spacing: -0.02em;
+    color: #262b35;
+    text-align: center;
+    max-width: 50%;
+  }
+
+  .testimonal-indicator{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #606c84 !important;
+  }
+  .carousel-indicators .active {
+    background-color: #1c57c9 !important;
+  }
+
+  .testimonal-indicators{
+    bottom: -50px;
+  }
+  
+  @media (max-width: 834px) {
+    .testimonals{
+        margin-top: 20% !important;
+    }
+    .header-letsee {
+        max-width: 75%;
+      }
+      .carousel-control-prev,.carousel-control-next{
+          display: none;
+      }
+}
+
+
+
+  @media (max-width: 375px) {
+    .header-letsee {
+        font-size: 32px;
+        line-height: 44.8px;
+        max-width: 85%;
+      }
+
+  }
