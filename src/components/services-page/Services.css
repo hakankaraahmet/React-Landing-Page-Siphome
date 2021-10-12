@@ -60,12 +60,12 @@
   text-align: left;
 }
 
-.carousel {
+.carousel-services {
   display: none !important;
 }
 
 @media (max-width: 834px) {
-  .carousel {
+  .carousel-services {
     display:block !important;
   }
   .services-bottom-container {

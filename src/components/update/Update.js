@@ -12,7 +12,7 @@ import updatedot2 from "../../assets/Update-dot2.svg"
 
 const Update = () => {
   return (
-    <div className="update row d-flex justify-content-around border border-primary">
+    <div className="update row d-flex justify-content-around">
       <div className="update-left col-lg-6">
           <div className="update-left-headers">
         <div className="update-left-header1 mt-5">Update</div>

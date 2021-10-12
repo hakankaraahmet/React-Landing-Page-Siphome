@@ -14,7 +14,7 @@ import Card from "./Card";
 import CarouselCard from "./CarouselCard";
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services border border-primary">
       <div className="services-top">
         <div className="header-services">Services</div>
         <div className="header-bring-more mt-4">
@@ -46,7 +46,7 @@ const Services = () => {
       {/* ------------------Carousel Part-------------------- */}
       <div
         id="carouselIndicators"
-        className="carousel slide d-flex"
+        className="carousel carousel-services slide d-flex"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner  w-100">
