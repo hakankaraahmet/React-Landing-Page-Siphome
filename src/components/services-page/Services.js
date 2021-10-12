@@ -14,7 +14,7 @@ import Card from "./Card";
 import CarouselCard from "./CarouselCard";
 const Services = () => {
   return (
-    <div className="services border border-primary">
+    <div className="services">
       <div className="services-top">
         <div className="header-services">Services</div>
         <div className="header-bring-more mt-4">

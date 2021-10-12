@@ -3,7 +3,7 @@ import "./Contact.css";
 import illustration from "../../assets/illustration.svg";
 const Contact = () => {
   return (
-    <div className="contact row border border-primary">
+    <div className="contact row ">
       <div className="contact-left col-lg-5 ">
         <div className="header-contact">Contact</div>
         <div className="header-skip mt-4">
