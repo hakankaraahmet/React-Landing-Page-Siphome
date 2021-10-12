@@ -27,20 +27,20 @@ const Services = () => {
         <img src={home} className="my-5 services-home-image" />
       </div>
       <div className="services-bottom-container container mt-5">
-        <div className="services-bottom container my-3">
-          <Card title="Mobile Command Management" image={servicesIcon1} />
-          <Card title="Equipment Optimizer" image={servicesIcon2} />
-          <Card title="Lifecycle Prediction" image={servicesIcon3} />
+        <div className="services-bottom container">
+          <Card image={servicesIcon1} />
+          <Card image={servicesIcon2} />
+          <Card image={servicesIcon3} />
         </div>
-        <div className="services-bottom container my-3">
-          <Card title="Troubleshooting Guide" image={servicesIcon4} />
-          <Card title="Energy Optimizer" image={servicesIcon5} />
-          <Card title="Smart Diagnotics" image={servicesIcon6} />
+        <div className="services-bottom container">
+          <Card image={servicesIcon4} />
+          <Card image={servicesIcon5} />
+          <Card image={servicesIcon6} />
         </div>
-        <div className="services-bottom container my-3">
-          <Card title="Vital Equipment Scan" image={servicesIcon7} />
-          <Card title="Smart Alerts" image={servicesIcon8} />
-          <Card title="Preventative Maintenance" image={servicesIcon9} />
+        <div className="services-bottom container">
+          <Card image={servicesIcon7} />
+          <Card image={servicesIcon8} />
+          <Card image={servicesIcon9} />
         </div>
       </div>
       {/* ------------------Carousel Part-------------------- */}
@@ -58,35 +58,35 @@ const Services = () => {
             />
           </div>
           <div className="carousel-item ">
-            <CarouselCard title="Equipment Optimizer" image={servicesIcon2} />
+            <CarouselCard image={servicesIcon2} />
           </div>
           <div className="carousel-item">
-            <CarouselCard title="Lifecycle Prediction" image={servicesIcon3} />
+            <CarouselCard image={servicesIcon3} />
           </div>
           <div className="carousel-item">
-            <CarouselCard title="Troubleshooting Guide" image={servicesIcon4} />
+            <CarouselCard image={servicesIcon4} />
           </div>
         </div>
         <ol className="carousel-indicators">
           <li
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="0"
-            className="active indicator"
+            className="active indicator mx-2"
           ></li>
           <li
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="1"
-            className=" indicator"
+            className=" indicator mx-2"
           ></li>
           <li
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="2"
-            className=" indicator"
+            className=" indicator mx-2"
           ></li>
           <li
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="3"
-            className=" indicator"
+            className=" indicator mx-2"
           ></li>
         </ol>
         {/* ---- */}

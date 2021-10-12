@@ -1,5 +1,5 @@
 .services {
-  margin-top: 10% !important;
+  margin-top: 5% !important;
 }
 .header-services {
   font-family: "Inter", sans-serif;
@@ -30,38 +30,20 @@
   color: #606c84;
   text-align: center;
 }
-.services-bottom-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
+
 .services-bottom {
   display: flex;
-  justify-content: space-between;
-   filter: drop-shadow(0rem 6rem 48rem 0rem rgba(0,0,0,0.1)) !important;
-}
-
-.services-card {
-  display: flex;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 16px;
-  box-shadow: 0px 6px rgba(0, 0, 0, 0.2) !important;
- 
-}
-
-.services-card-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #262b35;
-  text-align: left;
+  justify-content: space-around;
+  max-height: 120px !important;
+  
 }
 
 .carousel-services {
   display: none !important;
+}
+
+.card-image{
+  
 }
 
 @media (max-width: 834px) {
@@ -83,11 +65,7 @@
   .carousel-indicators{
     bottom: -50px;
   }
-  .services-card{
-    box-shadow: 0px, 4px, 4px, 0px #000000 25% ;
-    border:1px solid black;
-    border-radius: 4px;
-  }
+  
 }
 
 
@@ -111,6 +89,9 @@
    justify-content: center;
    flex-direction: column;
    align-items: center;
+ }
+ .carousel-image{
+   filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
  }
  
   

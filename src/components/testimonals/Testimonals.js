@@ -23,17 +23,17 @@ const Testimonals = () => {
             <li
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="0"
-              className="active testimonal-indicator"
+              className="active testimonal-indicator mx-2"
             ></li>
-            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator mx-2" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator mx-2" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" className="testimonal-indicator mx-2" data-bs-slide-to="2"></li>
           </ol>
           <div className="carousel-inner w-100 ">
-            <div className="carousel-item active w-100">
-              <img className="d-block  w-100 col-md-3 d-flex justify-content-center" src={testimonal1} alt="First slide" />
+            <div className="carousel-item active w-100 ">
+              <img className="d-block w-100  col-md-3 d-flex justify-content-center" src={testimonal1} alt="First slide" />
             </div>
-            <div className="carousel-item w-100">
+            <div className="carousel-item w-100 ">
               <img className="d-block w-100 col-md-3 d-flex justify-content-center" src={testimonal2} alt="Second slide" />
             </div>
           </div>
@@ -44,7 +44,6 @@ const Testimonals = () => {
             data-bs-slide="prev"
           >
            <span className=" carousel-icon" aria-hidden="true"> <img src={btnicon}/></span>
-
           </a>
           <a
             className="carousel-control-next"

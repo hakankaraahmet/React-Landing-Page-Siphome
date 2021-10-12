@@ -3,6 +3,7 @@ import "./Hero.css";
 import large from "../../assets/large.svg"
 import small from "../../assets/small.svg"
 import dot from "../../assets/dot.svg"
+import lineoval from "../../assets/line-oval.svg"
 
 
 const Hero = () => {
@@ -26,6 +27,7 @@ const Hero = () => {
         </div>
         <img className="dot-image" src={dot}/>
       </div>
+      <img src={lineoval} className="lineoval"/>
       <div className="hero-image-group col-lg-6">
         <img className="large-image" src={large}/>
         <img className="small-image" src={small}/>

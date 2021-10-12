@@ -14,5 +14,7 @@ html,body
 
 .gradient{
     background-image: url("./assets/gradient.svg");
+    padding-bottom: 100px !important;
 }
+
 

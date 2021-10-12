@@ -92,6 +92,11 @@
   left: 0;
   bottom: 0;
 }
+.lineoval{
+  position: absolute;
+  top: -70px;
+  right: 400px;
+}
 
 /* MEDIA FOR IPAD */
 
@@ -114,6 +119,9 @@
   .dot-image{
     max-width: 20% ;
     max-height: 20%;
+  }
+  .lineoval{
+    display: none;
   }
 }
 

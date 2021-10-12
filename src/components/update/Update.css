@@ -97,13 +97,13 @@
 .update-dot-1{
     position: absolute;
     left: 0;
-    bottom:0;
+    bottom:100px;
     opacity: 0.4;
 }
 .update-dot-2{
     position: absolute;
     left: 180px;
-    bottom:0;
+    bottom:100px;
     opacity: 0.4;
 }
 .update-dot-3{
